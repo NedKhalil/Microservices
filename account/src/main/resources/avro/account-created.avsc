@@ -1,0 +1,9 @@
+{
+  "type": "record",
+  "name": "AccountCreatedEvent",
+  "namespace": "com.ned.microservices.account.event",
+  "fields": [
+    { "name": "customerId", "type": "int" },
+    { "name": "accountId", "type": "long" }
+  ]
+}
